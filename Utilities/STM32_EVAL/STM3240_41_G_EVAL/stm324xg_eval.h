@@ -117,7 +117,7 @@ typedef enum
 /** @addtogroup STM324xG_EVAL_LOW_LEVEL_LED
   * @{
   */
-#define LEDn                             5
+#define LEDn                             4
 
 #define LED1_PIN                         GPIO_Pin_3
 #define LED1_GPIO_PORT                   GPIOD
@@ -134,11 +134,6 @@ typedef enum
 #define LED4_PIN                         GPIO_Pin_7
 #define LED4_GPIO_PORT                   GPIOF
 #define LED4_GPIO_CLK                    RCC_AHB1Periph_GPIOF
-
-  
-#define LED5_PIN                         GPIO_Pin_7
-#define LED5_GPIO_PORT                   GPIOF
-#define LED5_GPIO_CLK                    RCC_AHB1Periph_GPIOF
 
 
 #define BEEP_PIN                         GPIO_Pin_6
